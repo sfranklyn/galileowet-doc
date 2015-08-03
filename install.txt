@@ -1,0 +1,7 @@
+To install Galileo Web Terminal you need
+
+1. Java SDK 7
+2. GlassFish 4.1
+3. Galileo Desktop 2.6
+4. XML Select 4.3
+
