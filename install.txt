@@ -1,19 +1,28 @@
-To install Galileo Web Terminal you need
+To install Galileo Web Terminal please install the 
+following software in order.
 
-1. Java SDK 7
+1. Java SDK 8
 2. NetBeans 8.02
-2. GlassFish 4.1
-3. Galileo Desktop 2.6
-4. XML Select 4.3
+3. GlassFish 4.1
+4. MySQL 5.6
 5. Galileo SSL
+6. XML Select 4.3
+7. Galileo Desktop 2.6
 
-Galileo Desktop 
-Client ID         : G756O01Z
-Primary IPCS      : 127.0.0.1
-Secondary Address : 127.0.0.1
-
-HCM Manager Console
+
+Run HCM Manager Console and use the following values:
 HCM Name       : Galileo 2
+
 Client Id      : G756O01V
+
 Primary IPCS   : ssl1.galileoindonesia.com
 Secondary IPCS : ssl1.galileoindonesia.com
+
+Run Galileo Desktop and use the following values:
+Client ID         : G756O01V
+Keyboard Mode     : Apollo / GalileoMapped
+Use Domain Name Services
+Config Server Name
+   : ssl1.galileoindonesia.com
+IP Concentrator Name : ssl1.galileoindonesia.com
+

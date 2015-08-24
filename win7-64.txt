@@ -1,18 +1,2 @@
-To run Galileo Web Terminal in Windows 7 64 bit we need to:
-
-1. Upgrade Com4J to release 20120426
-2. Modify Windows 7 using regedit.exe.
-
-To do this, it involves a small number of simple registry change:
-
-1. Locate your COM object GUID under the HKey_Classes_Root\Wow6432Node\CLSID\[GUID]
-   Once located add a new String Value. 
-   Name should be AppID and data should be the same COM object GUID 
-   you have just searched for
-2. Add a new key under HKey_Classes_Root\Wow6432Node\AppID\
-   The new key should be called the same as the com object GUID
-   Under the new key you just added, add a new String Value, 
-   and call it DllSurrogate. Leave the value empty
-3. Create a new Key under HKey_Local_Machine\Software\Classes\AppID\
-   Again the new key should be called the same as the COM object’s GUID. 
-   No values are necessary to be added under this key.
+Galileo Web Terminal should not be run under 
+Windows 7 64-bit. This will create many complications.
