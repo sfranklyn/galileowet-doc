@@ -9,12 +9,9 @@ following software in order.
 6. XML Select 4.3
 7. Galileo Desktop 2.6
 
-
 Run HCM Manager Console and use the following values:
 HCM Name       : Galileo 2
-
 Client Id      : G756O01V
-
 Primary IPCS   : ssl1.galileoindonesia.com
 Secondary IPCS : ssl1.galileoindonesia.com
 
@@ -22,7 +19,6 @@ Run Galileo Desktop and use the following values:
 Client ID         : G756O01V
 Keyboard Mode     : Apollo / GalileoMapped
 Use Domain Name Services
-Config Server Name
-   : ssl1.galileoindonesia.com
+Config Server Name   : ssl1.galileoindonesia.com
 IP Concentrator Name : ssl1.galileoindonesia.com
 
