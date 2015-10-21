@@ -10,7 +10,7 @@ following software in order.
 7. Galileo Desktop 2.6
 
 Run HCM Manager Console and use the following values:
-HCM Name       : Galileo 2
+HCM Name       : Galileo2
 Client Id      : G756O01V
 Primary IPCS   : ssl1.galileoindonesia.com
 Secondary IPCS : ssl1.galileoindonesia.com
