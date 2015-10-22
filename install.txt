@@ -1,12 +1,12 @@
 To install Galileo Web Terminal please install the 
 following software in order.
 
-1. Java SDK 8
+1. Java SDK 8u60
 2. NetBeans 8.02
 3. GlassFish 4.1
 4. MySQL 5.6
 5. Galileo SSL
-6. XML Select 4.3
+6. XML Select 4.4
 7. Galileo Desktop 2.6
 
 Run HCM Manager Console and use the following values:
@@ -21,4 +21,7 @@ Keyboard Mode     : Apollo / GalileoMapped
 Use Domain Name Services
 Config Server Name   : ssl1.galileoindonesia.com
 IP Concentrator Name : ssl1.galileoindonesia.com
+
+Copy com4.jar, commons-lang-2.4.jar, dan ecs.jar 
+ke directory glassfish4\glassfish\lib.
 
